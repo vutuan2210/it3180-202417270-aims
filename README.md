@@ -4,3 +4,4 @@
 
 - Sinh viên: vutuan2210 – MSSV 20247170
 - Chạy chương trình: `python main.py`
+- Yêu cầu: Python 3.10 trở lên
