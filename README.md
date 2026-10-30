@@ -8,3 +8,4 @@
 
 ## Cách dùng
 - Chạy chương trình: `python main.py`
+- Thư mục `aims/` chứa mã nguồn, `docs/` chứa tài liệu.
