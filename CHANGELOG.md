@@ -3,8 +3,11 @@
 Theo định dạng [Keep a Changelog](https://keepachangelog.com) và [Semantic Versioning](https://semver.org).
 
 ## [Unreleased]
+
+## [1.1.0] - 2026-11-02
 ### Added
 - `Cart.sort_by_title()` và `Cart.sort_by_cost()` sắp xếp giỏ hàng.
+- `search_by_category()` tìm đĩa theo thể loại, không phân biệt hoa thường.
 
 ## [1.0.0] - 2026-11-01
 ### Added
