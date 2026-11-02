@@ -4,6 +4,10 @@ Theo định dạng [Keep a Changelog](https://keepachangelog.com) và [Semantic
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-02
+### Fixed
+- `search_by_title()` không phân biệt hoa thường (#24).
+
 ## [1.0.0] - 2026-11-01
 ### Added
 - `Cart.print_cart()` in giỏ hàng, báo "The cart is empty" khi giỏ trống.
