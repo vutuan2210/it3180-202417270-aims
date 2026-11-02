@@ -41,3 +41,11 @@ class Cart:
         if not 0 <= percent <= 100:
             raise ValueError("percent must be between 0 and 100")
         return self.total_cost() * (100 - percent) / 100
+
+    def sort_by_title(self):
+        """Danh sách đĩa sắp xếp theo tiêu đề (không phân biệt hoa thường)."""
+        return sorted(self.items, key=lambda dvd: dvd.title.lower())
+
+    def sort_by_cost(self):
+        """Danh sách đĩa sắp xếp theo giá tăng dần."""
+        return sorted(self.items, key=lambda dvd: dvd.cost)
